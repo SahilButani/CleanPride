@@ -1,15 +1,7 @@
 @charset "utf-8";
-/*
-Template Name: Sislaf
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
+@import url("fontawesome-free/css/all.css");
 @import url("framework.css");
 
 /* Rows
@@ -228,7 +220,7 @@ This gives a smooth transition to "ALL" elements used in the layout - other than
 If you don't want it to fade all elements, you have to list the ones you want to be faded individually
 Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
+*, *::before, *::after{transition:all .0s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 
@@ -345,7 +337,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A5A6AA; background-color:#1C1D21;}
+body{color:#DBDBDB; background-color:#1C1D21;}
 a{color:#76B947;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -371,7 +363,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#76B947 !important;}
 .row1{border-color:rgba(255,255,255,.3);}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#A5A6AA; background-color:#27282E;}
+.row4{color:#DDDCD9; background-color:#27282E;}
 .row5, .row5 a{color:#A5A6AA; background-color:#1C1D21;}
 
 
